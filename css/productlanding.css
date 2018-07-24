@@ -1,5 +1,53 @@
-@media(min-width:800px){
-    body{
-        background-color:red;
+header{
+    width:100%;
+}
+
+article{
+    margin:auto;
+    width:80%;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    grid-template-columns:10% 90%;
+}
+
+#header-img{
+    width:auto;
+    height:60px;
+}
+
+#navbar{
+    display:flex;
+    flex-direction:row;
+}
+
+#nav-link{
+
+}
+
+#form{
+
+}
+
+
+
+@media(max-width:800px){
+    #descriptImg{
+
+    }
+
+    article{
+        width:100%;
     }
 }
